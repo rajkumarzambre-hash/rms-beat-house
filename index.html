@@ -1,33 +1,98 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="mr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RMS Beat House</title>
-<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+margin:0;
+background:#000;
+color:#fff;
+font-family:Arial,sans-serif;
+}
+
+header{
+text-align:center;
+padding:20px;
+background:#111;
+}
+
+.logo{
+width:120px;
+border-radius:50%;
+}
+
+h1{
+color:#ff0000;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+padding:15px;
+}
+
+.card{
+background:#111;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 10px rgba(255,0,0,.3);
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+.card h3{
+padding:10px;
+font-size:16px;
+}
+
+.btn{
+display:block;
+text-align:center;
+background:red;
+color:white;
+padding:10px;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
 </head>
+
 <body>
+
 <header>
-  <img src="logo.png" class="logo">
-  <h1>RMS Beat House</h1>
-  <p>Premium Marathi DJ Remix Songs & Nonstop Mixes</p>
+<img src="logo.png" class="logo">
+<h1>RMS Beat House</h1>
+<p>Marathi DJ Remix & Nonstop Songs</p>
 </header>
 
-<section>
-  <h2>🎵 Featured Playlist</h2>
-  <iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/videoseries?list=PLWJnxsTIX7GkkINUmNTLfCmRwJqy5qkUI"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</section>
+<div class="grid">
 
-<section>
-  <a class="btn" href="https://www.youtube.com/channel/UCQ-JgHGXqxwamnT8O0-F4rA">Subscribe on YouTube</a>
-  <a class="btn" href="https://www.instagram.com/rmsstudioplus">Follow Instagram</a>
-</section>
+<div class="card">
+<img src="https://img.youtube.com/vi/fsJ28YtVysc/maxresdefault.jpg">
+<h3>नखरेल नखऱ्याची जानुडे</h3>
+<a class="btn" href="https://youtu.be/fsJ28YtVysc" target="_blank">Watch Now</a>
+</div>
+
+<div class="card">
+<img src="https://img.youtube.com/vi/fsJ28YtVysc/hqdefault.jpg">
+<h3>DJ वर लावणीची धूम</h3>
+<a class="btn" href="https://youtube.com/channel/UCQ-JgHGXqxwamnT8O0-F4rA" target="_blank">Watch Now</a>
+</div>
+
+<div class="card">
+<img src="https://img.youtube.com/vi/fsJ28YtVysc/mqdefault.jpg">
+<h3>पेठणीवाली राणी</h3>
+<a class="btn" href="https://youtube.com/playlist?list=PLWJnxsTIX7GkkINUmNTLfCmRwJqy5qkUI" target="_blank">Watch Now</a>
+</div>
+
+</div>
+
 </body>
 </html>
