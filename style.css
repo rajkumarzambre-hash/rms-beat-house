@@ -69,7 +69,7 @@ box-shadow:0 0 10px rgba(255,0,0,.4);
 
 .song-card img{
 width:100%;
-height:120px;
+aspect-ratio:1/1;
 object-fit:cover;
 }
 
