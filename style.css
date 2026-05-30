@@ -68,15 +68,27 @@ padding:15px;
 }
 
 .song-row{
+.song-row{
 display:flex;
-overflow-x:auto;
 gap:15px;
 padding:15px;
+overflow-x:auto;
+scroll-behavior:smooth;
 scrollbar-width:none;
 }
 
 .song-row::-webkit-scrollbar{
 display:none;
+}
+
+.song-row .card{
+flex:0 0 280px;
+min-width:280px;
+max-width:280px;
+background:#111;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 0 12px rgba(255,0,0,.4);
 }
 
 .song-card{
@@ -181,5 +193,10 @@ font-size:24px;
 .grid{
 grid-template-columns:1fr;
 }
-
+.song-row .card{
+flex:0 0 220px;
+min-width:220px;
+max-width:220px;
+}
+  
 }
