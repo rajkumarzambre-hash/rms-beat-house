@@ -130,3 +130,38 @@ border:none;
 border-radius:30px;
 font-size:16px;
 }
+.month-title{
+color:#fff;
+font-size:28px;
+font-weight:bold;
+margin:25px 15px 10px;
+padding-left:12px;
+border-left:5px solid red;
+}
+
+.gif-banner{
+width:100%;
+margin:20px 0;
+}
+
+.gif-banner img{
+width:100%;
+aspect-ratio:3/1;
+object-fit:cover;
+display:block;
+border-radius:12px;
+}
+
+.card img{
+width:100%;
+aspect-ratio:16/9;
+object-fit:cover;
+display:block;
+}
+
+.song-card img{
+width:100%;
+aspect-ratio:16/9;
+object-fit:cover;
+display:block;
+  }
