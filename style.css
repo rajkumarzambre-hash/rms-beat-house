@@ -13,8 +13,8 @@ border-bottom:2px solid red;
 }
 
 .logo{
-width:90px;
-height:90px;
+width:140px;
+height:140px;
 border-radius:50%;
 }
 
@@ -60,7 +60,7 @@ display:none;
 }
 
 .song-card{
-min-width:140px;
+min-width:220px;
 background:#111;
 border-radius:10px;
 overflow:hidden;
@@ -131,12 +131,14 @@ border-radius:30px;
 font-size:16px;
 }
 .month-title{
-color:#fff;
-font-size:28px;
+background:#111;
+color:#ff0000;
+font-size:32px;
 font-weight:bold;
-margin:25px 15px 10px;
-padding-left:12px;
-border-left:5px solid red;
+padding:15px;
+margin:20px 10px;
+border-left:6px solid red;
+border-radius:8px;
 }
 
 .gif-banner{
