@@ -167,3 +167,21 @@ aspect-ratio:16/9;
 object-fit:cover;
 display:block;
   }
+.logo{
+width:140px !important;
+height:140px !important;
+}
+
+.song-card{
+min-width:220px !important;
+}
+
+.month-title{
+background:#111 !important;
+color:#ff0000 !important;
+font-size:32px !important;
+font-weight:bold !important;
+padding:15px !important;
+margin:20px 10px !important;
+border-left:6px solid red !important;
+  }
